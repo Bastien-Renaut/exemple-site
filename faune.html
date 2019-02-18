@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Le Monde Marin</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="favicon.ico" />
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<img src="img/logo.png" alt="Logo - Le Monde Marin"/>
+			</a>
+			<div id="smart_nav">
+				<img class="barre" src="img/barre.png" alt="smart_nav" />
+			</div>
+			<ul class="head">
+				<li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+				<li class="nav-item"><a class="nav-link" href="faune.html">Faune</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Flore</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Impact de l'Homme</a></li>
+				<li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+			</ul>
+		</header>
+		<div class="gris">
+			<div class="text">
+			<h1>La Faune</h1>
+				<p>La faune, un si petit mot regroupant pourtant une immensité d'êtres vivants. En 2014, des recherches ont été effectuées sur les espèces différentes composant la faune marine. 			Ces recherches ont affirmé que le nombre d'espèces était de 228 450. Cependant, ce sanctuaire de vie est tellement riche que les scientifiques estiment qu'il leur reste encore entre 500 000 et 2 000 000 d'organismes à découvrir. Les animaux marins sont si mystérieux ! Saviez-vous par exemple qu'un cachalot...
+				</p>
+			</div>
+		</div>
+		<div class="white">
+			<div class="text">
+				<div class="row">
+					<div class="page-img">
+						<a href="fiche.html">
+							<img class="page-image" src="img/faune/tortue.jpg" alt="Tortue" />
+						</a>
+					</div>
+					<div class="page-resume">
+						<h3>L'animal du mois</h3>
+						<p>La tortue marine, un animal magnifique! Ce mois-ci, notre rubrique a choisi de parler de cet animal exceptionnel habitant notre monde marin. Pour plus de détails, cliquez sur l'image.</p>
+						<a href="fiche.html">Voir l'animal du mois</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="logo">
+				<a href="index.html">
+					<img class="foot-logo" src="img/logo.png" alt="Logo - Le Monde Marin"/>
+				</a>
+			</div>	
+			<ul class="foot">
+				<li><a class="foot-link" href="index.html">Accueil</a></li>
+				<li><a class="foot-link" href="faune.html">Faune</a></li>
+				<li><a class="foot-link" href="#">Flore</a></li>
+				<li><a class="foot-link" href="#">Impact de l'Homme</a></li>
+				<li><a class="foot-link" href="actualites.html">Actualités</a></li>
+				<li><a class="foot-link" href="#">Contact</a></li>
+			</ul>
+			<div class="reseau">
+				<a target="_blank" href="https://www.facebook.com/Centre-de-D%C3%A9couverte-du-Monde-Marin-191079794242983/">
+					<img src="img/reseaux/fb-logo.png" alt="Logo Facebook"/>
+				</a>
+				<a target="_blank" href="https://www.instagram.com/explore/tags/mondemarin/">
+					<img src="img/reseaux/ig-logo.png" alt="Logo Instagram"/>
+				</a>
+				<a target="_blank" href="https://twitter.com/LemarLab">
+					<img src="img/reseaux/twi-logo.png" alt="Logo Twitter"/>
+				</a>
+			</div>
+		</footer>
+
+
+		<!--Librairie jQuery-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+		<!--Navbar-->
+		<script type="text/javascript">
+			$("#smart_nav").click(function(){
+				$(".head").slideToggle();
+			});
+		</script>
+
+	</body>
+</html>

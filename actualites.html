@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Le Monde Marin</title>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="favicon.ico" />
+
+		<!--CSS du plugin de recherche (select2)-->
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+
+	</head>
+
+	<body>
+		<header>
+			<a href="index.html">
+				<img src="img/logo.png" alt="Logo - Le Monde Marin"/>
+			</a>
+			<div id="smart_nav">
+				<img class="barre" src="img/barre.png" alt="smart_nav" />
+			</div>
+			<ul class="head">
+				<li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+				<li class="nav-item"><a class="nav-link" href="faune.html">Faune</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Flore</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Impact de l'Homme</a></li>
+				<li class="nav-item"><a class="nav-link" href="actualites.html">Actualités</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+			</ul>
+		</header>
+		<div class="gris">
+			<div class="text">
+				<h1>Actualités</h1>
+				<div>
+					<select class="search">
+						<option>Rechercher une actualité</option>
+						<optgroup label="Faune">
+							<option>Les partisans de la chasse à la baleine mis en échec</option>
+							<option>Le top de 10 des espèces marines en voie de disparition</option>
+						</optgroup>
+						<optgroup label="Flore">
+							<option>Arizona</option>
+							<option>Colorado</option>
+							<option>Idaho</option>
+						</optgroup>
+						<optgroup label="Impact de l'homme">
+							<option>A l’étang de Thau, « 1 218 tonnes de moules mortes  » à cause de la chaleur</option>
+							<option>Arkansas</option>
+							<option>Illinois</option>
+						</optgroup>
+					</select>
+					<br/>
+					<br/>
+					<input id="date" class="date" type="date">
+				</div>
+				
+			</div>
+			<div class="actualites">
+				<div class="row-1 actualites-1 show">
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>A l’étang de Thau, « 1 218 tonnes de moules mortes  » à cause de la chaleur</h3>
+							<p>La malaïgue, absence d’oxygène dans le milieu marin favorisée par les fortes chaleurs, a fait perdre aux conchyliculteurs de l’étang « 100 % de leur récolte ».</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Le top de 10 des espèces marines en voie de disparition</h3>
+							<p>On parle de plus en plus d’extinction de certaines espèces et du danger qu’encourent d’autres. On fait donc de plus en plus référence à la mise en place de programme de protection, afin d’éviter de causer la disparition de certains êtres vivants.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>A l’étang de Thau, « 1 218 tonnes de moules mortes  » à cause de la chaleur</h3>
+							<p>La malaïgue, absence d’oxygène dans le milieu marin favorisée par les fortes chaleurs, a fait perdre aux conchyliculteurs de l’étang « 100 % de leur récolte ».</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Le top de 10 des espèces marines en voie de disparition</h3>
+							<p>On parle de plus en plus d’extinction de certaines espèces et du danger qu’encourent d’autres. On fait donc de plus en plus référence à la mise en place de programme de protection, afin d’éviter de causer la disparition de certains êtres vivants.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+				</div>
+				<div class="row-1 actualites-2 hide">
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>A l’étang de Thau, « 1 218 tonnes de moules mortes  » à cause de la chaleur</h3>
+							<p>La malaïgue, absence d’oxygène dans le milieu marin favorisée par les fortes chaleurs, a fait perdre aux conchyliculteurs de l’étang « 100 % de leur récolte ».</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Le top de 10 des espèces marines en voie de disparition</h3>
+							<p>On parle de plus en plus d’extinction de certaines espèces et du danger qu’encourent d’autres. On fait donc de plus en plus référence à la mise en place de programme de protection, afin d’éviter de causer la disparition de certains êtres vivants.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+				</div>
+				<div class="row-1 actualites-3 hide">
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>A l’étang de Thau, « 1 218 tonnes de moules mortes  » à cause de la chaleur</h3>
+							<p>La malaïgue, absence d’oxygène dans le milieu marin favorisée par les fortes chaleurs, a fait perdre aux conchyliculteurs de l’étang « 100 % de leur récolte ».</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Le top de 10 des espèces marines en voie de disparition</h3>
+							<p>On parle de plus en plus d’extinction de certaines espèces et du danger qu’encourent d’autres. On fait donc de plus en plus référence à la mise en place de programme de protection, afin d’éviter de causer la disparition de certains êtres vivants.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+				</div>
+				<div class="row-1 actualites-4 hide">
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>A l’étang de Thau, « 1 218 tonnes de moules mortes  » à cause de la chaleur</h3>
+							<p>La malaïgue, absence d’oxygène dans le milieu marin favorisée par les fortes chaleurs, a fait perdre aux conchyliculteurs de l’étang « 100 % de leur récolte ».</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+				</div>
+				<div class="row-1 actualites-5 hide">
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Les partisans de la chasse à la baleine mis en échec</h3>
+							<p>Le Japon n’est pas parvenu à convaincre la Commission baleinière internationale d’assouplir les règles de la pêche commerciale de ces cétacés.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu1.jpg" alt="Chasse à la baleine"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/planete/article/2018/09/14/les-partisans-de-la-chasse-a-la-baleine-mis-en-echec_5355314_3244.html">Lire la suite..</a>
+							<p class="actu-date">14/09/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu2.jpg" alt="Moule"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.lemonde.fr/economie-francaise/article/2018/08/30/un-tiers-des-huitres-et-la-totalite-des-moules-de-l-etang-de-thau-sont-mortes-cet-ete_5348238_1656968.html">Lire la suite..</a>
+							<p class="actu-date">30/08/2018</p>
+						</div>
+					</div>
+					<div class="actualite">
+						<div class="actu-img">
+							<img class="actu-image" src="img/actu/actu3.png" alt="Animaux en voie de disparition"/>
+						</div>
+						<div class="actu-content">
+							<h3>Lorem Ipsum</h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum blandit, diam in posuere laoreet, sapien libero rutrum diam, vitae malesuada nisl mauris sed augue. Suspendisse eu vehicula mauris. Aliquam suscipit.</p>
+							<a target="_blank" href="https://www.decouvertemondemarin.org/le-top-de-10-des-especes-marines-en-voie-de-disparition/">Lire la suite..</a>
+							<p class="actu-date">18/06/2017</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="pagination-centrer">
+				<div class="pagination">
+					<a href="#" class="pagi-1 actif">1</a>
+					<a href="#" class="pagi-2">2</a>
+					<a href="#" class="pagi-3">3</a>
+					<a href="#" class="pagi-4">4</a>
+					<a href="#" class="pagi-5">5</a>
+				</div>
+			</div>
+		</div>
+
+
+		<footer>
+			<div class="logo">
+				<a href="index.html">
+					<img class="foot-logo" src="img/logo.png" alt="Logo - Le Monde Marin"/>
+				</a>
+			</div>	
+			<ul class="foot">
+				<li><a class="foot-link" href="index.html">Accueil</a></li>
+				<li><a class="foot-link" href="faune.html">Faune</a></li>
+				<li><a class="foot-link" href="#">Flore</a></li>
+				<li><a class="foot-link" href="#">Impact de l'Homme</a></li>
+				<li><a class="foot-link" href="actualites.html">Actualités</a></li>
+				<li><a class="foot-link" href="#">Contact</a></li>
+			</ul>
+			<div class="reseau">
+				<a target="_blank" href="https://www.facebook.com/Centre-de-D%C3%A9couverte-du-Monde-Marin-191079794242983/">
+					<img src="img/reseaux/fb-logo.png" alt="Logo Facebook"/>
+				</a>
+				<a target="_blank" href="https://www.instagram.com/explore/tags/mondemarin/">
+					<img src="img/reseaux/ig-logo.png" alt="Logo Instagram"/>
+				</a>
+				<a target="_blank" href="https://twitter.com/LemarLab">
+					<img src="img/reseaux/twi-logo.png" alt="Logo Twitter"/>
+				</a>
+			</div>
+		</footer>
+
+		<!--Librairie jQuery-->
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+		<!--Plugin Select2-->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script> 
+		<!--Option de Select2-->
+		<script type="text/javascript">
+			$(".search").select2({
+				theme: "classic"
+			});
+		</script>
+
+
+		<!--Navbar-->
+		<script type="text/javascript">
+			$("#smart_nav").click(function(){
+				$(".head").slideToggle();
+			});
+		</script>
+
+		<script type="text/javascript">
+			$(".pagi-1").click(function(){ 
+				$('.actualites-1').addClass('show');													//La class show est pour afficher les actualites de "actualites-1"
+				$('.actualites-1').removeClass('hide');												//La class hide est pour enlever le hide de "actualites-1" au cas où on soit allé sur une autre "page"
+				$('.actualites-2, .actualites-3, .actualites-4, .actualites-5').addClass('hide');			//Cela permet de cacher tous les autres actualites(-2-3-4-5)
+				$(".pagination").find('.pagi-2, .pagi-3, .pagi-4, .pagi-5').removeClass('actif');	//On enlève la classe "actif" (surlignage bleu) des pages non voulu
+				$(this).addClass('actif');															//On rajoute la classe "actif" sur le lien cliqué
+			});
+			$(".pagi-2").click(function(){ 
+				$('.actualites-2').addClass('show');
+				$('.actualites-2').removeClass('hide');
+				$('.actualites-1, .actualites-3, .actualites-4, .actualites-5').addClass('hide');
+				$(".pagination").find('.pagi-1, .pagi-3, .pagi-4, .pagi-5').removeClass('actif');
+				$(this).addClass('actif');
+			});
+			$(".pagi-3").click(function(){ 
+				$('.actualites-3').addClass('show'); 
+				$('.actualites-3').removeClass('hide');
+				$('.actualites-1, .actualites-2, .actualites-4, .actualites-5').addClass('hide');
+				$(".pagination").find('.pagi-1, .pagi-2, .pagi-4, .pagi-5').removeClass('actif');
+				$(this).addClass('actif');
+			});
+			$(".pagi-4").click(function(){ 
+				$('.actualites-4').addClass('show'); 
+				$('.actualites-4').removeClass('hide');
+				$('.actualites-1, .actualites-2, .actualites-3, .actualites-5').addClass('hide');
+				$(".pagination").find('.pagi-1, .pagi-2, .pagi-3, .pagi-5').removeClass('actif');
+				$(this).addClass('actif');
+			});
+			$(".pagi-5").click(function(){ 
+				$('.actualites-5').addClass('show'); 
+				$('.actualites-5').removeClass('hide');
+				$('.actualites-1, .actualites-2, .actualites-3, .actualites-4').addClass('hide');
+				$(".pagination").find('.pagi-1, .pagi-2, .pagi-3, .pagi-4').removeClass('actif');
+				$(this).addClass('actif');
+			});
+		</script>
+
+		
+	</body>
+</html>
